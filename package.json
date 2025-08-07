@@ -1,0 +1,25 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "catalog:frontend"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:dev",
+    "@types/node": "catalog:types",
+    "@unocss/eslint-plugin": "catalog:dev",
+    "@vitejs/plugin-vue": "catalog:build",
+    "@vue/tsconfig": "catalog:",
+    "eslint": "catalog:dev",
+    "typescript": "catalog:dev",
+    "vite": "catalog:build",
+    "vue-tsc": "catalog:build"
+  }
+}
